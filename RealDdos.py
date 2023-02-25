@@ -1,6 +1,15 @@
 print("\n")
 print("Coded By : Mr.BL4Z3, Modded by Fitsbit")
 print("Author   : T34m V18rs, mod by Fitsbit")
+import sys
+import os
+import time
+import socket
+import random
+
+print("\n")
+print("Coded By : Mr.BL4Z3, Modded by Fitsbit")
+print("Author   : T34m V18rs, mod by Fitsbit")
 print("Github   : github.com/T34mV18rs, https://github.com/Fitsbit")
 print("Fb Page  : facebook.com/TeamVirusOfficial, Modder doesn't have fb")
 print("FB Group : facebook.com/groups/mohinhossen, modder doesn't have fb")
@@ -21,7 +30,7 @@ while user_input.lower() != 'y':
             exit()
     user_input = input("Do you want to continue? (y/n):  ")
 print("Get ready...")
- print("[                    ] 0%")
+print("[                    ] 0%")
 time.sleep(1)
 print("[=====               ] 25%")
 time.sleep(1)
@@ -37,6 +46,7 @@ while True:
     # Perform some operation using the two integers
     # For example, you could print their sum:
     print(f"Sending packets to {num1} through port {num2}")
+
 
 
 
