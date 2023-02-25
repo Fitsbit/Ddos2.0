@@ -19,7 +19,7 @@ while user_input.lower() != 'y':
         user_input = input("Do you want to exit? (y/n): ")
         if user_input.lower() == 'y':
             exit()
-    user_input = input("Do you want to continue? (y/n): (weird thing here, itll just  continue either way.) ")
+    user_input = input("Do you want to continue? (y/n):  ")
 
  
 while True:
